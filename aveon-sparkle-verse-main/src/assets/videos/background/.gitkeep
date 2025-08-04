@@ -1,0 +1,24 @@
+# Background Videos
+
+This folder contains background video files for hero sections, page backgrounds, and ambient video effects.
+
+Recommended specifications:
+- Format: MP4 (H.264 codec)
+- Resolution: 1920x1080 or higher
+- Duration: 10-30 seconds (loopable)
+- File size: Keep under 10MB for web performance
+
+Usage:
+```typescript
+import heroBackground from '@/assets/videos/background/hero-bg.mp4';
+
+// Use in video element
+<video autoPlay muted loop className="absolute inset-0 w-full h-full object-cover">
+  <source src={heroBackground} type="video/mp4" />
+</video>
+```
+
+Tips:
+- Use short, loopable clips for seamless backgrounds
+- Optimize video files for web (compress for smaller file sizes)
+- Consider providing multiple formats (MP4, WebM) for browser compatibility

@@ -1,0 +1,14 @@
+# Videos Assets
+
+This folder contains video files for background effects and other video content.
+
+Supported formats:
+- MP4 (recommended)
+- WebM
+- OGV
+
+Usage:
+Import videos as ES6 modules:
+```typescript
+import backgroundVideo from '@/assets/videos/background.mp4';
+```
